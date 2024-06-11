@@ -28,9 +28,4 @@ enum Departmments {
     HR
 }
 
-/*
-Some(2024)     
-Some(false)    
-Some("Mustafa")
-None
-*/
+
