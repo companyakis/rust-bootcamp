@@ -12,13 +12,6 @@ fn main() {
 
     // Iterating  
 
-    // for (k, v) in salaries { //we should borrow
-
-    //     println!("Name: {k} and salary: {v}");
-    // }
-
-    //println!("Salaries: {:?}", &salaries); // borrow of moved value: `salaries` value borrowed here after move
-
     for (k, v) in &salaries { //we should borrow
 
         println!("Name: {k} and salary: {v}");
