@@ -1,0 +1,14 @@
+fn main() {
+
+    let string_1 = String::from("Mustafa");
+
+    println!("{string_1}"); // Mustafa
+
+    let string_2 = string_1;
+
+    println!("{string_2}"); // Mustafa
+
+    //println!("{string_1}"); // error[E0382]: borrow of moved value: `string_1`
+
+}
+
