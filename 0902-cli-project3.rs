@@ -4,7 +4,7 @@ use std::io;
 
 fn employee_info_input() -> String {
 
-    let mut data: String::new();
+    let mut data = String::new();
 
     io::stdin().read_line(&mut data).expect("Please, try again!");
 
