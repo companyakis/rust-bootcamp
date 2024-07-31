@@ -2,7 +2,7 @@ use std::io;
 
 // employee info input
 
-fn employee_info_input() -> String {
+fn employee_info_selection_input() -> String {
 
     let mut data = String::new();
 
